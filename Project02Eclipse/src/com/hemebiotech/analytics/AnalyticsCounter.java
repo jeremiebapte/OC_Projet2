@@ -1,9 +1,6 @@
 package com.hemebiotech.analytics;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class AnalyticsCounter {
 	private static int headacheCount = 0;    // initialize to 0
@@ -40,16 +37,22 @@ public class AnalyticsCounter {
 		writer.write("rash: " + rashCount + "\n");
 		writer.write("dialated pupils: " + pupilCount + "\n");
 		writer.close();
-	}*/
+	}
+
 	//lecture et tri par ordre alphabetique du fichier symptomes
+
+	 */
 	public List<String> lecture() {
 		ReadSymptomDataFromFile reader = new ReadSymptomDataFromFile("symptoms.txt");
 		return reader.getSymptoms();
 	}
 
 
-
-
-
 }
+
+
+
+
+
+
 

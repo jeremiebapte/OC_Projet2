@@ -5,8 +5,9 @@ import java.util.*;
 public class CountSymptoms {
 
     /*
-     * Comptage des symptomes.
-     * Mise en Map.
+     * Counting of symptoms.
+     * Map setting
+     *
      */
     public Map<String, Integer> countingSymptomsData(List<String> symptomsFile) {
 

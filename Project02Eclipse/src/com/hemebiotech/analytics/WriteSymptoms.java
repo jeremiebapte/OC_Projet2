@@ -6,8 +6,9 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class WriteSymptoms implements ISymptomsWriter {
-    /*tri et écriture dans le fichier result.out
-     *
+    /*
+     *sort and write in the result.out file
+     * management of possible errors
      * */
     @Override
     public void writeSymptomsData(Map<String,Integer> sortingSymptomsData) {

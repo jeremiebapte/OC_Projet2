@@ -5,8 +5,9 @@ import java.util.*;
 
 public class AnalyticsCounter {
 
-	/* TreeMap avec symptomes triés.
-	 * Affichage console.
+	/*
+	 *TreeMap with sorted symptoms.
+	 * Console display.
 	 *
 	 * */
 
